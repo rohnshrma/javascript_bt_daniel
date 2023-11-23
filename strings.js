@@ -165,3 +165,48 @@ var mess = "Hello World this is Daniel"
 // console.log("the character on the 4th index is : " + chat_at_4);
 
 
+// console.log(mess.includes("hello")) // subString
+// console.log(mess.includes("Hello")) // subString
+
+
+// console.log(mess.includes("i",24)); // substring , position(inclusive)
+// console.log(mess.includes("i",23)); // substring , position(inclusive)
+
+// console.log(mess.length);
+// console.log(mess.padStart(40)); // more then the actual length
+// console.log(mess.padEnd(40)); // more then the actual length
+
+
+// console.log(mess.slice(5,11)); // 5-10
+
+
+// .at supports negative indexing
+// console.log(mess.at(6));
+// console.log(mess.at(-1));
+
+// .chatat doesn't support negative indexing
+// console.log(mess.charAt(-1));
+
+
+// returns a new string by concatenating the specified substrings
+// console.log(mess.concat(" and his age is unknown " , " and he is a great student."));
+
+// var z = mess.concat(" and his age is unknown " , " and he is a great student.")
+// console.log(z);
+
+// console.log(mess.lastIndexOf("i"));
+
+// console.log(mess.match(/));
+
+// returns an array by splitting the string on the specified char 
+// console.log(mess.split(" "));
+// console.log(mess.split("i"));
+// console.log(mess.split(""));
+
+
+// var x = 23
+
+
+// console.log(typeof x);
+// console.log(typeof x.toString());
+// console.log(typeof String(x));
