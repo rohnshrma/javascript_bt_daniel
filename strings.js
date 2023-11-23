@@ -84,7 +84,7 @@
 // string methods => functions providing extra functionality to work with strings
 
 // returns a new string b repeating your string , specified number of times
-var mess = "Hello World this is Daniel"
+// var mess = "Hello World this is Daniel"
 
 
 // ṛeturn a new string by replacing the existing string with the new substring
