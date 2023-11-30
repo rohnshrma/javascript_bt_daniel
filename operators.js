@@ -161,18 +161,18 @@ var i = 10;
 
 
 
-var yourName = prompt("Enter your name : ").toLowerCase()
+// var yourName = prompt("Enter your name : ").toLowerCase()
 
 
-// if the name is valid
-if (yourName.length >= 3) {
-    // check for the invite
-    if (yourName[0] == "d") {
-        console.log(`Welcome to the party, ${yourName} !`);
-    } else {
-        console.log(`"${yourName}" is not invited to the party`);
-    }
-} else {
+// // if the name is valid
+// if (yourName.length >= 3) {
+//     // check for the invite
+//     if (yourName[0] == "d") {
+//         console.log(`Welcome to the party, ${yourName} !`);
+//     } else {
+//         console.log(`"${yourName}" is not invited to the party`);
+//     }
+// } else {
 
-    console.log(`"${yourName}" is not a valid name`)
-}
+//     console.log(`"${yourName}" is not a valid name`)
+// }
