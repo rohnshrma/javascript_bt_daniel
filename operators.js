@@ -130,7 +130,7 @@ var i = 10;
 // }
 
 
-var age = parseInt(prompt("Enter your age : "))
+// var age = parseInt(prompt("Enter your age : "))
 // console.log(age);
 // console.log(typeof age);
 
@@ -157,3 +157,22 @@ var age = parseInt(prompt("Enter your age : "))
 // 0 : sunday
 // 1 : monday
 // ...
+
+
+
+
+var yourName = prompt("Enter your name : ").toLowerCase()
+
+
+// if the name is valid
+if (yourName.length >= 3) {
+    // check for the invite
+    if (yourName[0] == "d") {
+        console.log(`Welcome to the party, ${yourName} !`);
+    } else {
+        console.log(`"${yourName}" is not invited to the party`);
+    }
+} else {
+
+    console.log(`"${yourName}" is not a valid name`)
+}
