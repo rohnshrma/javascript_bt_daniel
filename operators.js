@@ -110,3 +110,50 @@ var i = 10;
 // console.log(!true);
 // console.log(12 > 10); // true
 // console.log(!12 > 10); // true
+
+
+// control flow statements
+// - if ,else if and else statements
+// - switch statements
+// - loops : for, while and do while loop
+
+
+
+
+// - if ,else if and else statements
+
+// if block is used to handle the true part of the condition
+// run a code only if the condition is true
+
+// if(condition){
+// code 
+// }
+
+
+var age = parseInt(prompt("Enter your age : "))
+// console.log(age);
+// console.log(typeof age);
+
+// if (age >= 18){
+// the code inside of the if block runs if the condition is true
+// console.log(`Eligible to drive as your age is ${age}`);
+// }else{
+// else block does not take any condition , it is only there to handle the false part of the condition
+// the code inside of the else block runs if all the conditions above are false 
+// console.log(`Not Eligible to drive as your age is ${age}`);
+// }
+
+// every condition afterwards should be inside of an "else if" block
+// if (age >= 60) {
+//     console.log(`Not Fit to drive as your age is ${age}`);
+// }
+// else if (age >= 18) {
+//     console.log(`Eligible to drive as your age is ${age}`);
+// } else {
+//     console.log(`Not Eligible to drive as your age is ${age}`);
+// }
+
+// create variable called today , ask the value as a number between 0 - 6
+// 0 : sunday
+// 1 : monday
+// ...
