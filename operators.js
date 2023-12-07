@@ -176,3 +176,161 @@ var i = 10;
 
 //     console.log(`"${yourName}" is not a valid name`)
 // }
+
+
+
+
+// switch statement 
+// alernative to avoid if else ladder
+
+// var day = parseInt(prompt("Enter any number between 0-6 : "))
+
+// switch (day) {
+//     case 0:
+//         alert(`Today is Monday`)
+//         break;
+//     case 1:
+//         alert("Today is Tuesday")
+//         break;
+//     case 2:
+//         alert("Today is Wednesday")
+//         break;
+//     case 3:
+//         alert("Today is Thursday")
+//         break;
+//     case 4:
+//         alert("Today is Friday")
+//         break;
+//     case 5:
+//         alert("Today is Saturday")
+//         break;
+//     case 6:
+//         alert("Today is Sunday")
+//         break;
+//     default:
+//         alert("Not a valid day\nPlease choose a number between 0 - 6")
+// }
+
+
+
+// ticket price system
+// 0-4 : free
+// 5-10 : $2
+// 11-14 : $5
+// 15 - : $10 
+
+// var age = parseInt(prompt("Enter your age : "))
+
+// switch (age) {
+//     case 0:
+//     case 1:
+//     case 2:
+//     case 3:
+//     case 4:
+//         alert("You can watch the movie for free !")
+//         break
+//     case 5:
+//     case 6:
+//     case 7:
+//     case 8:
+//     case 9:
+//     case 10:
+//         alert("Your ticket price is $2")
+//         break;
+//     case 11:
+//     case 12:
+//     case 13:
+//     case 14:
+//         alert("Your ticket price is $5")
+//         break;
+//     default:
+//         alert("Your ticket price is $5")
+//         break
+// }
+
+
+// Grading system:
+// 90 - 100 : A
+// 80 - 90 : B
+// 70 - 80 : C
+// 60 - 70 : D
+// less than 60 : F
+
+// var marks = parseInt(prompt("Enter your marks : "))
+// switch (true) {
+//     case marks >= 90 && marks <= 100:
+//         alert("A")
+//         break
+//     case marks >= 80 && marks <= 90:
+//         alert("B")
+//         break
+//     case marks >= 70 && marks <= 80:
+//         alert("C")
+//         break
+//     case marks >= 60 && marks <= 70:
+//         alert("D")
+//         break
+//     case marks < 60 && marks >= 0:
+//         alert("F")
+//         break
+//     default:
+//         alert("Invalid marks !")
+// }
+
+// var month = parseInt(prompt("Enter the month to know the season : "))
+// switch (true) {
+//     case month == 12 || month == 1 || month == 2:
+//         alert("Winter")
+//         break;
+//     case month == 3 || month == 4 || month == 5:
+//         alert("Spring")
+//         break;
+//     case month == 6 || month == 7 || month == 8:
+//         alert("Summer")
+//         break;
+//     case month == 9 || month == 10 || month == 11:
+//         alert("Autum")
+//         break;
+//     default :
+//     alert("Not a valid month")
+// }
+
+// var x = parseInt(prompt("Enter the value of x :"))
+// var y = parseInt(prompt("Enter the value of y :"))
+// var operator = prompt("Enter Operator : ", "+,-,/,*")
+
+// switch (operator) {
+//     case "+":
+//         alert(`The sum of ${x} and ${y} is ${x + y}`)
+//         break
+//     case "-":
+//         alert(`The difference of ${x} and ${y} is ${x - y}`)
+//         break
+//     case "*":
+//         alert(`The product of ${x} and ${y} is ${x * y}`)
+//         break
+//     case "/":
+//         alert(`The answer of ${x} / ${y} is ${x / y}`)
+//         break;
+//     default:
+//         alert(operator, "Invalid operator")
+//         break
+// }
+
+
+// for (initalization ; condition ; increment / decrement){
+    // code 
+// }
+
+// for (var i = 10; i < 15;i++){
+//     console.log("Daniel",i)
+// }
+
+
+var txt = "hello my name is daniel"
+
+// console.log(txt[22]);
+
+for (var i = 0 ; i < txt.length ;i++){
+    console.log(txt[i]);
+}
