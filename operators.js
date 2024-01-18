@@ -327,10 +327,15 @@ var i = 10;
 // }
 
 
-var txt = "hello my name is daniel"
+// var txt = "hello my name is daniel"
 
-// console.log(txt[22]);
+// // console.log(txt[22]);
 
-for (var i = 0 ; i < txt.length ;i++){
-    console.log(txt[i]);
-}
+// for (var i = 0 ; i < txt.length ;i++){
+//     console.log(txt[i]);
+// }
+
+// var my_name = "sourav"
+// console.log(my_name.)
+
+
